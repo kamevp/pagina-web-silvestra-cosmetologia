@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosmetología a Domicilioo </title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <script>
+    function toggleInfo(id) {
+      const info = document.getElementById(id);
+      info.classList.toggle('show');
+    }
+  </script>
+</head>
+<body>
+  <div class="contenedor">
+  <h1 class="titulo-animado">Spa cuerpo y alma</h1>
+  <p>Cosmetología profesional a domicilio</p>
+  <p>Atiendo en todo Medellín y alrededores</p>
+  <h2>Servicios</h2>
+  <ul>
+    <li>
+      <button onclick="toggleInfo('info1')">Post Operatorios</button>
+      <div id="info1" class="info">Terapias postoperatorias, cuidados especiales, etc.</div>
+    </li>
+    <li>
+      <button onclick="toggleInfo('info2')">Limpiezas faciales</button>
+      <div id="info2" class="info">Tratamientos de limpieza profunda, exfoliación, mascarillas.</div>
+    </li>
+    <li>
+      <button onclick="toggleInfo('info3')">Masajes relajantes</button>
+      <div id="info3" class="info">Masajes corporales para liberar el estrés y mejorar el bienestar.</div>
+    </li>
+    <li>
+      <button onclick="toggleInfo('info4')">Drenajes linfáticos</button>
+      <div id="info4" class="info">Estimulación del sistema linfático para eliminar toxinas.</div>
+    </li>
+  </ul>
+
+  <h2>Sobre mí</h2>
+  <p><strong>Soy Silvestra Villadiego Herrera</strong>, cosmetóloga certificada con más de 12 años de experiencia ofreciendo servicios profesionales a domicilio. Me especializo principalmente en tratamientos postoperatorios, incluyendo drenajes linfáticos y terapias de recuperación.
+
+    Soy una persona respetuosa, comprometida y enfocada en los objetivos de cada uno de mis clientes, brindando atención personalizada para ayudarles a sentirse y verse mejor en cada etapa de su bienestar.</p>
+
+  <h2>Contáctame</h2>
+  <p>
+    <span style="color: red;">&#128222;</span> WhatsApp: 
+    <a href="https://wa.me/573004288159" target="_blank">573004288159</a>
+  </p>
+  <p>Déjame tus datos y me pondré en contacto contigo:</p>
+
+  <form action="https://usebasin.com/f/b938ct" method="POST">
+    <label for="name">Nombre:</label><br />
+    <input type="text" id="name" name="name" /><br /><br />
+
+    <label for="email">Correo electrónico:</label><br />
+    <input type="email" id="email" name="email" /><br /><br />
+
+    <label for="message">Mensaje:</label><br />
+    <textarea id="message" name="message" rows="4"></textarea><br /><br />
+
+    <button type="submit">Enviar</button>
+  </form>
+
+</div>
+</body>
+<footer>
+  &copy; 2025 Spa Cuerpo y Alma. Todos los derechos reservados.
+</footer>
+
+</html>
