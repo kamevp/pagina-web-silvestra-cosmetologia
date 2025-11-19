@@ -20,3 +20,37 @@ Incluye una página principal con secciones para presentar los servicios, imáge
 
 ## 📁 Estructura del proyecto
 
+
+pagina-web-silvestra-cosmetologia/
+│── index.html
+│── style.css
+│── imagenes/
+│ │── (imágenes del sitio)
+
+
+---
+
+## 🎨 Características principales
+
+- Página informativa para servicios de belleza y cosmetología.  
+- Uso de estilos personalizados con CSS.  
+- Imágenes incrustadas y diseño sencillo.  
+- Proyecto creado desde cero como práctica de desarrollo web.
+
+---
+
+## 🚀 Cómo ver el proyecto
+
+1. Descarga el repositorio:
+git clone https://github.com/kamevp/pagina-web-silvestra-cosmetologia.git
+
+2. Abre el archivo `index.html` en cualquier navegador.  
+
+(Pronto añadiremos el link oficial con GitHub Pages.)
+
+---
+
+## 📌 Autor
+👩‍💻 **Kamelin Sofía Villadiego Peña**  
+Estudiante de Ingeniería de Software – Politécnico Grancolombiano
+
